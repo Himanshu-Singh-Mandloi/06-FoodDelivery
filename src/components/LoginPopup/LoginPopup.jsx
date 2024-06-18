@@ -19,7 +19,7 @@ function LoginPopup( {setShowLogin} ) {
           {currState === "Login" ? <></> : <input type="text" placeholder='Your name' required/>}
           
           <input type="email" placeholder='Your email' required/>
-          <input type="password" placeholder='PAssword' required/>
+          <input type="password" placeholder='Password' required/>
         </div>
 
         <button> {currState === "Sign Up" ? "Create account" : "Login"} </button>
